@@ -11,7 +11,29 @@ Project URL: www.jusclick.com
  /*  end of default css here*/
 
  /* header and navigation css start here */
- css here
+ /*  navbar brand css*/
+ .navbar-brand{
+   font-size: 2rem;
+   font-weight: 700;
+ }
+ .navbar-brand,.orange{
+   color: orange;
+ }
+.blue{
+   color: blue;
+ }
+ .navbar-light{
+   background: #A3F5dc !important;
+ }
+ .navbar-light .navbar-nav > .nav-link{
+   color: #fff;
+ }
+ .navbar-light .navbar-nav .active > .nav-link{
+   color: orange;
+ }
+ a.register{
+   margin-right: 6px;
+ }
  /*  end of header and navigation css here*/
 /* carousel css will be here */
 carousel here
