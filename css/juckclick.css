@@ -23,7 +23,7 @@ Project URL: www.jusclick.com
    color: blue;
  }
  .navbar-light{
-   background: #A3F5dc !important;
+   background: #ddd !important;
  }
  .navbar-light .navbar-nav > .nav-link{
    color: #fff;
@@ -36,11 +36,26 @@ Project URL: www.jusclick.com
  }
  /*  end of header and navigation css here*/
 /* carousel css will be here */
-carousel here
+.carousel-caption{
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+.carousel-caption h5{
+  font-size: 3rem;
+  color: #ddd;
+}
+.carousel-caption p{
+  font-size: 1.7rem;
+  color: #ccc;
+}
 /*  *end of carousel css here/
 
 /*  main content css goes here*/
-main content
+.introMessage{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
 /*  end of main content css here*/
 /*  footer css goes here*/
 footer here
