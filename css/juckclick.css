@@ -6,8 +6,23 @@ Project URL: www.jusclick.com
  */
  /* default css start here */
  body{
-
+   background-color: #252529;
+   color: #fff;
  }
+ .btn {
+    /* padding: 1rem; */
+    color: #fff;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+a:hover{
+  list-style-type: none;;
+  text-decoration: none;
+  color:#c56926;
+}
  /*  end of default css here*/
 
  /* header and navigation css start here */
@@ -15,30 +30,44 @@ Project URL: www.jusclick.com
  .navbar-brand{
    font-size: 2rem;
    font-weight: 700;
+   color: #fff !important;
  }
  .navbar-brand,.orange{
    color: orange;
  }
 .blue{
-   color: blue;
+   color: #c56926;
  }
  .navbar-light{
-   background: #ddd !important;
+   background:  #252529 !important;
  }
- .navbar-light .navbar-nav > .nav-link{
-   color: #fff;
- }
+ .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+a.nav-link{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: orange;
+}
  .navbar-light .navbar-nav .active > .nav-link{
    color: orange;
  }
  a.register{
    margin-right: 6px;
  }
+ .registerBtn{
+   background: orange;
+ }
+ .loginBtn{
+   background: #c56926;
+ }
  /*  end of header and navigation css here*/
 /* carousel css will be here */
 .carousel-caption{
-  margin-top: 170px;
-  margin-bottom: 170px;
+  margin-top: 150px;
+  margin-bottom: 120px;
 }
 .carousel-caption h5{
   font-size: 3rem;
@@ -52,11 +81,92 @@ Project URL: www.jusclick.com
 
 /*  main content css goes here*/
 .introMessage{
-  margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.5rem;
 }
+.welcome{
+  margin-top: 80px;
+}
+.services .fa{
+  font-size:50px;
+  font-family:fontAwesome;
+  font-weight: 500
+}
+.first .fa{
+  color:orange;
+  margin-bottom: 20px;
+}
+.second .fa{
+  color:chocolate;
+  margin-bottom: 20px;
+}
+.last .fa{
+  color:brown;
+  margin-bottom: 20px;
+}
+.cta-bottom{
+  margin-bottom: 50px;
+}
+btn-primary:hover{
+  background: var(--primary-color-hover);
+}
+.mb{
+  margin-bottom: 1rem;
+}
 /*  end of main content css here*/
+/* ====gift card css here==== */
+img{
+  width: 100%;
+}
+.gift-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+/* Section */
+.section {
+  padding: 2rem 0;
+}
+
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.section h3 {
+  font-size: 2rem;
+}
+
 /*  footer css goes here*/
-footer here
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .footer-cols ul {
+  list-style: none;
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+  background: #333;
+  padding: 1rem;
+}
+
 /*  end of footer css here*/
+/* ==================Media queries start here===== */
