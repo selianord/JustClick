@@ -51,8 +51,8 @@ a {
  /*  end of header and navigation css here*/
 /* carousel css will be here */
 .carousel-caption{
-  margin-top: 170px;
-  margin-bottom: 170px;
+  margin-top: 150px;
+  margin-bottom: 120px;
 }
 .carousel-caption h5{
   font-size: 3rem;
@@ -71,6 +71,23 @@ a {
 }
 .welcome{
   margin-top: 80px;
+}
+.services .fa{
+  font-size:90px;
+  font-family:fontAwesome;
+  font-weight: bold;
+}
+.first .fa{
+  color:orange;
+  margin-bottom: 20px;
+}
+.second .fa{
+  color:chocolate;
+  margin-bottom: 20px;
+}
+.last .fa{
+  color:brown;
+  margin-bottom: 20px;
 }
 .cta-bottom{
   margin-bottom: 50px;
