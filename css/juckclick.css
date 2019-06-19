@@ -63,6 +63,11 @@ a.nav-link{
  .loginBtn{
    background: #c56926;
  }
+ /* modal css custom */
+ .modal-header h5{
+   color:#ddd;
+ }
+ /*  end modal css custom*/
  /*  end of header and navigation css here*/
 /* carousel css will be here */
 .carousel-caption{
