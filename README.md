@@ -1,11 +1,11 @@
 # JustClick
 Marketing
 
-Just Click was founded and designed by Lusukama Selemani
+Just Click was founded and designed by Lusukama Selemani feel free to clone and make some improvement
 
 Project Descriptions
 
-This project will work as a didgital  marketing agency that specialize in the following services:
+This project will work as a digital  marketing agency that specialize in the following services:
 
 SEO , Digital Marketing , FaceBook Marketing, Google Advert, And software  Development, Customer Application, Web Application
 
