@@ -16,7 +16,7 @@
   <body>
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><span class="orange">J</span>ust<span class="blue">click</span></a>
+      <a class="navbar-brand" href="#" title="Justclick | Home"><span class="orange">J</span>ust<span class="blue">click</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,7 +27,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About </a>
+            <a class="nav-link" href="about.html">About </a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -45,15 +45,112 @@
             <a class="nav-link" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
+            <a class="nav-link" href="contact.html">Contact us</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <a href="#" class="btn btn-default my-2 my-sm-0 register registerBtn">Register</a>
-          <a href="#" class="btn btn-default my-2 my-sm-0 loginBtn">Login</a>
+          <!-- <a href="#" class="btn btn-default my-2 my-sm-0 register registerBtn">Register</a> -->
+          <a type="button" class="btn btn-default my-2 my-sm-0 register registerBtn" data-toggle="modal" data-target="#exampleModal1">
+            Register
+          </a>
+          <!-- <a href="#" class="btn btn-default my-2 my-sm-0 loginBtn">Login</a> -->
+          <a type="button" class="btn btn-default my-2 my-sm-0 loginBtn" data-toggle="modal" data-target="#exampleModal">
+            Login
+          </a>
         </form>
       </div>
     </nav>
+    <!-- modal login here -->
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login | Admin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+        <fieldset>
+          <legend>Admin | Destails</legend>
+          <p class="lead">Do not have account <a href="" data-toggle="modal" data-target="#exampleModal1">
+            Register Accoun
+          </a><p>
+          <div class="form-group">
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" class="form-control" placeholder="Username">
+          </div>
+          <div class="form-group">
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end of modal lgin here -->
+
+    <!-- modal Register here -->
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Register Form |</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+        <fieldset>
+          <legend>Admin | Destails</legend>
+          <p class="lead">have account <a href="" data-toggle="modal" data-target="#exampleModal">
+            Login
+          </a><p>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Lastname:</label>
+            <input type="text" id="userName" class="form-control" placeholder="Lastname">
+          </div>
+          <div class="form-group">
+            <label for="userEmail">Email:</label>
+            <input type="emai" id="userEmail" class="form-control" placeholder="example@jusclick.com">
+          </div>
+          <div class="form-group">
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </fieldset>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end of modal Register here -->
     <!-- end of header -->
     <!-- carousel  -->
     <div class="bd-example">
@@ -167,7 +264,7 @@
      </section>
     <!-- footer -->
     <footer>
-    <div class="container foot">
+    <!-- <div class="container">
       <div class="footer-cols">
         <ul>
           <li>Shop & Learn</li>
@@ -246,6 +343,90 @@
         </ul>
 
       </div>
+    </div> -->
+    <div class="container" id="footer">
+        <div class="row footer-cols">
+            <div class="col-md-3">
+                <ul class="unstyled">
+                  <li>Shop & Learn</li>
+                  <li>
+                    <a href="#">Music</a>
+                  </li>
+                  <li>
+                    <a href="#">Movies</a>
+                  </li>
+                  <li>
+                    <a href="#">Shows</a>
+                  </li>
+                  <li>
+                    <a href="#">Apps</a>
+                  </li>
+                  <li>
+                    <a href="#">Gift Cards</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="unstyled">
+                  <li>Justclick Store</li>
+                  <li>
+                    <a href="#">Find a Store</a>
+                  </li>
+                  <li>
+                    <a href="#">Today at Justclick</a>
+                  </li>
+                  <li>
+                    <a href="#">Justclick Camp</a>
+                  </li>
+                  <li>
+                    <a href="#">Financing</a>
+                  </li>
+                  <li>
+                    <a href="#">Order Status</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="unstyled">
+                  <li>Education & Business</li>
+                  <li>
+                    <a href="#">Justclick & Education</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop For College</a>
+                  </li>
+                  <li>
+                    <a href="#">Justclick & Business</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop For Business</a>
+                  </li>
+                  <li>
+                    <a href="#">Jobs</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="unstyled">
+                  <li>About Justclick</li>
+                  <li>
+                    <a href="#">Newsroom</a>
+                  </li>
+                  <li>
+                    <a href="#">Justclick Leadership</a>
+                  </li>
+                  <li>
+                    <a href="#">Investors</a>
+                  </li>
+                  <li>
+                    <a href="#">Events</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Justclick</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="footer-bottom text-center">
       Copyright &copy; 2019 Justclick All right reversed | Design by Selianord Group
