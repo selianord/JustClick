@@ -42,7 +42,7 @@ a:hover{
    background:  #252529 !important;
  }
  .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
 }
 a.nav-link{
   font-size: 1rem;
