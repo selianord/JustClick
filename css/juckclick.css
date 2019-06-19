@@ -65,7 +65,10 @@ a.nav-link{
  }
  /* modal css custom */
  .modal-header h5{
-   color:#ddd;
+   color: #685f5f;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 2rem;
  }
  /*  end modal css custom*/
  /*  end of header and navigation css here*/
@@ -148,15 +151,17 @@ img{
 }
 
 /*  footer css goes here*/
-footer .footer-cols {
+/* footer .footer-cols {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   padding: 2rem;
   text-align: left;
   font-size: 14px;
+} */
+#footer{
+  padding: 2rem;
 }
-
 footer .footer-cols ul {
   list-style: none;
 }
@@ -175,3 +180,19 @@ footer .footer-bottom {
 
 /*  end of footer css here*/
 /* ==================Media queries start here===== */
+@media screen and (max-width: 780px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+ .unstyled{
+   padding-left: 0 !important;
+ }
+ /* #footer{
+   margin-top: 20px;
+ } */
+}
+
+@media screen and (max-Width: 580px) {
+
+ }
+}
