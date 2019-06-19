@@ -18,6 +18,11 @@ a {
     text-decoration: none;
     color: #ccc;
 }
+a:hover{
+  list-style-type: none;;
+  text-decoration: none;
+  color:#c56926;
+}
  /*  end of default css here*/
 
  /* header and navigation css start here */
@@ -31,13 +36,17 @@ a {
    color: orange;
  }
 .blue{
-   color: blue;
+   color: #c56926;
  }
  .navbar-light{
    background:  #252529 !important;
  }
  .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.5);
+}
+a.nav-link{
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: orange;
@@ -47,6 +56,12 @@ a {
  }
  a.register{
    margin-right: 6px;
+ }
+ .registerBtn{
+   background: orange;
+ }
+ .loginBtn{
+   background: #c56926;
  }
  /*  end of header and navigation css here*/
 /* carousel css will be here */
@@ -73,9 +88,9 @@ a {
   margin-top: 80px;
 }
 .services .fa{
-  font-size:90px;
+  font-size:50px;
   font-family:fontAwesome;
-  font-weight: bold;
+  font-weight: 500
 }
 .first .fa{
   color:orange;
