@@ -230,7 +230,32 @@ img{
   padding-bottom: 50px;
 }
 /* ==========End of portfolio css here====== */
-
+/* ========Dropdown Pages css start here======== */
+.webbanner{
+   width:100%;
+    background:#c66a27;
+    height:350px;
+    padding: 7% 20px;
+}
+.webanner h1{
+  font-size: 3rem;
+  font-style:normal;
+}
+.overlay{
+    background:rgba(255,255,255, .4);
+    border-radius: 8px;
+    padding:25px;
+}
+.bannerwe{
+    background-image: url('images/banners/web-dev-banner-home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+	  height:400px;
+	  display:flex;
+	  align-items: center;
+}
+/* ======end Dropdown pages css===== */
 /* ========contact page=========css=== */
 .form-group input,select{
   width: 100%;
