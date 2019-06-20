@@ -53,12 +53,26 @@ a.nav-link{
 }
  .navbar-light .navbar-nav .active > .nav-link{
    color: orange;
- }
+   border-bottom: 2px solid;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ffa90b;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #c96e2c;
+}
  a.register{
    margin-right: 6px;
  }
  .registerBtn{
    background: orange;
+   margin-left: 10px;
+   margin-right: 8px;
  }
  .loginBtn{
    background: #c56926;
@@ -183,5 +197,3 @@ footer .footer-bottom {
    margin-top: 20px;
  } */
 }
-
-
