@@ -13,6 +13,11 @@ Project URL: www.jusclick.com
     /* padding: 1rem; */
     color: #fff;
     display: inline-block;
+    border: none;
+}
+.btn:active, .btn:focus{
+  outline: none;
+  border: none;
 }
 a {
     text-decoration: none;
@@ -126,6 +131,9 @@ a.nav-link{
   color:brown;
   margin-bottom: 20px;
 }
+.cta{
+  margin-top: 50px;
+}
 .cta-bottom{
   margin-bottom: 50px;
 }
@@ -164,6 +172,75 @@ img{
   font-size: 2rem;
 }
 
+/*================about us page css start here===  */
+.Aboutbanner{
+   width:100%;
+    background:#c66a27;
+    height:350px;
+    padding: 7% 20px;
+}
+.Aboutbanner h1{
+  font-size: 3rem;
+  font-style:normal;
+}
+.overlay{
+    background:rgba(255,255,255, .4);
+    border-radius: 8px;
+    padding:25px;
+}
+.bannerAbout{
+    background-image: url('../images/banners/digital-marketing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+	  height:400px;
+	  display:flex;
+	  align-items: center;
+}
+/*========end of about page css here===========  */
+/* ===========portfolio css start here========= */
+.banner{
+   width:100%;
+    background:#f4f4f4;
+    height:350px;
+    padding: 7% 20px;
+}
+.banner h1{
+  font-size: 3rem;
+  font-style:normal;
+}
+.overlay{
+    background:rgba(255,255,255, .4);
+    border-radius: 8px;
+    padding:25px;
+}
+.bannerPortfolio{
+    background-image: url('../images/banners/digital-marketing-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+	  height:400px;
+	  display:flex;
+	  align-items: center;
+}
+#workportfolio h1{
+  margin-bottom: 30px;
+}
+.work{
+  padding-bottom: 50px;
+}
+/* ==========End of portfolio css here====== */
+
+/* ========contact page=========css=== */
+.form-group input,select{
+  width: 100%;
+  padding: 5px 0px;
+}
+textarea{
+  width: 100%;
+  height: 200px;
+}
+
 /*  footer css goes here*/
 #footer{
   padding: 2rem;
@@ -192,6 +269,10 @@ footer .footer-bottom {
   }
  .unstyled{
    padding-left: 0 !important;
+ }
+ .work img{
+   padding-top: 20px;
+   padding-bottom: 20px;
  }
  /* #footer{
    margin-top: 20px;
