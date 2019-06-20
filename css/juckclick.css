@@ -144,11 +144,14 @@ img{
 
 /*  footer css goes here*/
 footer .footer-cols {
+/*
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   padding: 2rem;
   text-align: left;
+*/
+    padding: 2rem;
   font-size: 14px;
 }
 
@@ -170,3 +173,8 @@ footer .footer-bottom {
 
 /*  end of footer css here*/
 /* ==================Media queries start here===== */
+@media screen and (max-width: 780px){
+    .gift-cards{
+        grid-template-columns:  1fr;
+    }
+}
