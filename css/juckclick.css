@@ -63,6 +63,14 @@ a.nav-link{
  .loginBtn{
    background: #c56926;
  }
+ /* modal css custom */
+ .modal-header h5{
+   color: #685f5f;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 2rem;
+ }
+ /*  end modal css custom*/
  /*  end of header and navigation css here*/
 /* carousel css will be here */
 .carousel-caption{
@@ -143,18 +151,10 @@ img{
 }
 
 /*  footer css goes here*/
-footer .footer-cols {
-/*
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+<<<<<<< HEAD
+#footer{
   padding: 2rem;
-  text-align: left;
-*/
-    padding: 2rem;
-  font-size: 14px;
 }
-
 footer .footer-cols ul {
   list-style: none;
 }
@@ -173,8 +173,22 @@ footer .footer-bottom {
 
 /*  end of footer css here*/
 /* ==================Media queries start here===== */
-@media screen and (max-width: 780px){
-    .gift-cards{
-        grid-template-columns:  1fr;
-    }
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 780px) {
+  .gift-cards {
+    grid-template-columns: 1fr;
+  }
+ .unstyled{
+   padding-left: 0 !important;
+ }
+ /* #footer{
+   margin-top: 20px;
+ } */
 }
+
+@media screen and (max-Width: 580px) {
+
+ }
+}
+>>>>>>> 3ebe3d808225bca4f4b2c611e67d3573fdb7e760
