@@ -151,7 +151,6 @@ img{
 }
 
 /*  footer css goes here*/
-<<<<<<< HEAD
 #footer{
   padding: 2rem;
 }
@@ -173,8 +172,6 @@ footer .footer-bottom {
 
 /*  end of footer css here*/
 /* ==================Media queries start here===== */
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 780px) {
   .gift-cards {
     grid-template-columns: 1fr;
@@ -187,8 +184,4 @@ footer .footer-bottom {
  } */
 }
 
-@media screen and (max-Width: 580px) {
 
- }
-}
->>>>>>> 3ebe3d808225bca4f4b2c611e67d3573fdb7e760
