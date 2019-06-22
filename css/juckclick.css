@@ -170,7 +170,7 @@ primary:not(:disabled):not(.disabled):active{
 img{
   width: 100%;
 }
-.gift-cards {
+.more-details {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
@@ -315,7 +315,7 @@ footer .footer-bottom {
 /*  end of footer css here*/
 /* ==================Media queries start here===== */
 @media screen and (max-width: 780px) {
-  .gift-cards {
+  .more-details {
     grid-template-columns: 1fr;
   }
  .unstyled{
