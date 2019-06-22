@@ -114,6 +114,11 @@ a.nav-link{
 .welcome{
   margin-top: 80px;
 }
+.bg-services{
+  background-color: #252529;
+  color: #fff;
+  padding-top: 80px;
+}
 .services .fa{
   font-size:50px;
   font-family:fontAwesome;
@@ -142,6 +147,12 @@ btn-primary:hover{
 }
 .mb{
   margin-bottom: 1rem;
+}
+.cta-btn{
+  background: chocolate;
+  padding: 1rem;
+  outline: none;
+  border-radius: 3rem;
 }
 /*  end of main content css here*/
 /* ====gift card css here==== */
