@@ -82,6 +82,9 @@ a.nav-link{
  .loginBtn{
    background: #c56926;
  }
+ .registerBtn, .loginBtn:hover{
+   cursor: pointer;
+ }
  /* modal css custom */
  .modal-header h5{
    color: #685f5f;
@@ -104,6 +107,7 @@ a.nav-link{
   font-size: 1.7rem;
   color: #ccc;
 }
+
 /*  *end of carousel css here/
 
 /*  main content css goes here*/
@@ -145,14 +149,21 @@ a.nav-link{
 btn-primary:hover{
   background: var(--primary-color-hover);
 }
-.mb{
-  margin-bottom: 1rem;
-}
 .cta-btn{
   background: chocolate;
   padding: 1rem;
   outline: none;
   border-radius: 3rem;
+}
+.cta-btn:hover{
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.21);
+  border-color: 1px solid #0062cc;
+  border: 2px solid;
+}
+primary:not(:disabled):not(.disabled):active{
+  color: #fff;
+  background-color: rgba(0, 98, 204, 0.01);
 }
 /*  end of main content css here*/
 /* ====gift card css here==== */
@@ -164,6 +175,10 @@ img{
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   text-align: left;
+}
+.advert-intro{
+  color: #d2691e !important;
+  font-weight: bold;
 }
 .bg-light {
   background: var(--light-color);
