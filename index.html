@@ -173,7 +173,7 @@
           </div>
           <div class="carousel-item">
             <img src="images/carousel/slider3.png" class="d-block w-100" alt="Slider 3">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block overlay1">
               <h5>Expert in SEO</h5>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </div>
@@ -212,7 +212,7 @@
                       </div>
                       <div class="col-md-4 text-center services second">
                           <i class="fa fa-search"></i>
-                          <h3>SEO</h3>
+                          <h3>Search Engine Optimisations</h3>
                           <p class="lead">Digital Marketing is all about doing things with the righ market in mind.
                             by doing so .you provide them with </p>
                       </div>
@@ -348,12 +348,33 @@
       Copyright &copy; <script>document.write(new Date().getFullYear())</script> <strong><span class="orange">J</span>ust<span class="blue">c<span>lick</strong> All right reversed | Design by Selianord Group
     </div>
   </footer>
+  <a href="#" class="go-top" data-tooltip="true" data-placement="bottom" title="Jump to the top">
+    <span class="fa fa-arrow-up"></span>
+  </a>
     <!-- end of footer -->
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3-1.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/customerscript.js"></script> -->
+    <script>
+    	$(document).ready(function(){
+    		$(window).scroll(function(){
+    				if($(this).scrollTop() > 200 ){
+    					$(".go-top").fadeIn(200);
+    				}
+    				else
+    				{
+    					$(".go-top").fadeOut(200);
+    				}
+    			});
+
+    			$(".go-top").click(function(event){
+    				event.preventDefault();
+    				$("html, body").animate({scrollTop: 0}, 600);
+    			});
+    	});
+    </script>
   </body>
 </html>
